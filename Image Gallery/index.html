@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <center>
+        <header>
+            IMAGE GALLERY
+        </header>
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="animal1.jpeg" alt="Image 1" class="gallery-img" />
+                <img src="animal2.jpeg" alt="Image 2" class="gallery-img" />
+                <img src="city1.jpeg" alt="Image 3" class="gallery-img" />
+                <img src="city2.jpeg" alt="Image 4" class="gallery-img" />
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" />
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</center>
+
+</html>
